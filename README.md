@@ -28,9 +28,9 @@ stay focused using Pomodoro technique and website blocking.
 ## 📸 Preview
 ## 📸 Screenshots
 ### Dark Mode
-![Dark Mode](dark_mode.png)
+![Dark Mode](screenshots/dark_mode.png)
 ### Light Mode
-![Light Mode](light_mode.png)
+![Light Mode](screenshots/light_mode.png)
 
 ## 👨‍💻 Author
 **Abhik Kundu**
