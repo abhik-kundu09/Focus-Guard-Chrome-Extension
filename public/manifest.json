@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Guard – React Edition",
+  "version": "3.0",
+  "description": "React-based focus mode, Pomodoro timer, and site blocker",
+  "permissions": [
+    "storage",
+    "declarativeNetRequest",
+    "notifications"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+  "16": "icons/icon16.png",
+  "48": "icons/icon48.png.png",
+  "128": "icons/icon128.png.png"
+}
+}
