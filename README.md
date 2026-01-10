@@ -26,7 +26,11 @@ stay focused using Pomodoro technique and website blocking.
 6. Load unpacked → select `dist/`
 
 ## 📸 Preview
-(Add screenshots here)
+## 📸 Screenshots
+### Dark Mode
+![Dark Mode](dark_mode.png)
+### Light Mode
+![Light Mode](light_mode.png)
 
 ## 👨‍💻 Author
 **Abhik Kundu**
