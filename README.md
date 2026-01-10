@@ -34,4 +34,6 @@ stay focused using Pomodoro technique and website blocking.
 
 ## 👨‍💻 Author
 **Abhik Kundu**
+## 📜 License
+This project is licensed under the MIT License.
 
