@@ -1,23 +1,34 @@
 {
   "manifest_version": 3,
-  "name": "Focus Guard – React Edition",
-  "version": "3.0",
-  "description": "React-based focus mode, Pomodoro timer, and site blocker",
-  "permissions": [
-    "storage",
-    "declarativeNetRequest",
-    "notifications"
-  ],
-  "host_permissions": ["<all_urls>"],
+  "name": "Focus Guard",
+  "version": "1.0.0",
+  "description": "A productivity-focused screen time and website blocker extension",
+
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+
   "background": {
     "service_worker": "background.js"
   },
-  "action": {
-    "default_popup": "index.html"
-  },
+
   "icons": {
-  "16": "icons/icon16.png",
-  "48": "icons/icon48.png.png",
-  "128": "icons/icon128.png.png"
-}
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "permissions": [
+    "storage",
+    "declarativeNetRequest"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ]
 }
